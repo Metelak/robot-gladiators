@@ -110,8 +110,6 @@ var startGame = function(){
             break;
         }
     }
-    // play again
-    startGame();
     // after the loop ends, player is either out of health or enemies to fight, so run the endGame function
     endGame();
 };
